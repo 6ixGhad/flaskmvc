@@ -30,7 +30,7 @@ By defult, the config uses a sqlite database. If you wish to connect to your own
 
 ## In Production
 
-When deploying your application to a productio, depending on the environment you may not be able to upload config.py (such is the case with heroku). Instead you must pass
+When deploying your applicatio to a productio, depending on the environment you may not be able to upload config.py (such is the case with heroku). Instead you must pass
 in configuration information via enviornment variables. For heroku you need to navigate to your application's setting page (url should look like https://dashboard.heroku.com/apps/[app-name]/settings) and scroll down to config vars.
 Then provide your configuration as shown in the image below. 
 
