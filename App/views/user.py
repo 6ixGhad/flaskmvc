@@ -20,3 +20,7 @@ def client_app():
 @user_views.route('/static/users')
 def static_user_page():
   return send_from_directory('static', 'static-user.html')
+
+@user_views.route('/')
+def index():
+  return render_template('login.html')
