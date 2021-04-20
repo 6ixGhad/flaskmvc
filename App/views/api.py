@@ -14,7 +14,7 @@ def index():
 @api_views.route('/signup', methods=['GET'])
 def signup():
   #form = SignUp() # create form object
-    return render_template('login.html') # pass form object to template
+    return render_template('signup.html') # pass form object to template
 
 '''
 How to signup with server side rendering
