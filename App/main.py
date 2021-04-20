@@ -5,7 +5,7 @@ from datetime import timedelta
 from flask_uploads import UploadSet, configure_uploads, IMAGES, TEXT, DOCUMENTS
 
 from App.models import db
-from forms import SignUp, LogIn, AddTodo
+#from forms import SignUp, LogIn, AddTodo
 
 from App.views import (
     api_views,
