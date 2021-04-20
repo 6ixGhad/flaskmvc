@@ -21,6 +21,6 @@ def client_app():
 def static_user_page():
   return send_from_directory('static', 'static-user.html')
 
-@user_views.route('/test')
+@user_views.route('/login')
 def index():
   return render_template('login.html')
