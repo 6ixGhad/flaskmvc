@@ -1,5 +1,5 @@
 from flask import Blueprint, redirect, render_template, request
-#from forms import SignUp, LogIn, AddTodo
+from forms_copy import SignUp, LogIn, AddTodo
 
 api_views = Blueprint('api_views', __name__, template_folder='../templates')
 
